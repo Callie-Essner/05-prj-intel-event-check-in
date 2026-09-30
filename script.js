@@ -130,7 +130,7 @@ function renderState() {
 
 // Load saved data first, then immediately reset to a clean starting state.
 loadSavedState();
-resetAttendance();
+renderState();
 
 // When someone submits the form, we read the name and selected team,
 // update the totals, save them, and then redraw the page.
